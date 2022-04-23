@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 42px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    width: 195px;
+    height: 42px;
+}
+
+.nav {
+    float: left;
+    margin-left: 55px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+    float: left;
+    margin-left: 70px;
+}
+
+.search input {
+    float: left;
+    width: 360px;
+    height: 38px;
+    padding-left: 20px;
+    border: 1px solid #00a4ff;
+    outline: none;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    border: 0;
+    background: url(../images/btn.png) no-repeat;
+}
+
+.user {
+    float: right;
+    line-height: 42px;
+    margin-right: 35px;
+    font-size: 14px;
+    color: #666;
+}
+
+.user img {
+    vertical-align: middle;
+}
+
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.subnav {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+
+.subnav ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.subnav ul li a:hover {
+    color: #00a4ff;
+}
+
+.subnav ul li a span {
+    float: right;
+}
+
+.banner .w {
+    height: 420px;
+    background: url(../images/banner.png) no-repeat top center;
+}
+
+.course {
+    float: right;
+    width: 228px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.course h2 {
+    height: 48px;
+    line-height: 48px;
+    background-color: #9bceea;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.bd ul {
+    margin: 0 18px;
+}
+
+.bd ul li {
+    padding: 14px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.bd ul li h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.bd ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.bd a {
+    display: block;
+    width: 198px;
+    height: 38px;
+    margin: 5px 14px 0;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+}
+
+.goods {
+    height: 60px;
+    line-height: 60px;
+    margin-top: 8px;
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, .1);
+    background-color: #fff;
+}
+
+.goods h3 {
+    float: left;
+    margin: 0 34px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+.goods ul {
+    float: left;
+}
+
+.goods ul li {
+    float: left;
+}
+
+.goods ul li a {
+    padding: 0 35px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #bfbfbf;
+}
+
+.mod {
+    float: right;
+    font-size: 14px;
+    color: #00a4ff;
+    margin-right: 26px;
+}
+
+.box1 {
+    margin-top: 35px;
+}
+
+.box1-hd {
+    height: 40px;
+}
+
+.box1-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 400;
+}
+
+.box1-hd a {
+    float: right;
+    margin: 8px 16px 0 0;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.box1-bd ul {
+    width: 1220px;
+}
+
+.box1-bd ul li {
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin: 0 15px 15px 0;
+    background-color: #fff;
+}
+
+.box1-bd ul li:hover {
+    box-shadow: 0 4px 6px 4px rgba(0, 0, 0, .1);
+}
+
+.box1-bd ul li>img {
+    width: 100%;
+}
+
+.box1-bd ul li em {
+    position: absolute;
+    top: 4px;
+    right: -4px;
+}
+
+.box1-bd ul li h4 {
+    margin: 25px 20px 20px 24px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.info {
+    margin: 0 20px 0 24px;
+    font-size: 12px;
+    color: #999;
+}
+
+.info span {
+    color: #ff7c2d;
+}
+
+.box2 {
+    margin-top: 20px;
+}
+
+.box2-hd {
+    height: 40px;
+}
+
+.box2-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 400;
+}
+
+.box2-hd ul {
+    float: left;
+    margin-left: 315px;
+}
+
+.box2-hd ul li {
+    float: left;
+}
+
+.box2-hd ul li a {
+    padding: 0 35px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #868686;
+}
+
+.box2-hd ul li:first-child a {
+    color: #00a4ff;
+}
+
+.box2-hd a {
+    float: right;
+    margin: 8px 16px 0 0;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.right>img {
+    margin-left: 15px;
+}
+
+.right ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin: 18px 0 0 15px;
+    background-color: #fff;
+}
+
+.right ul li img {
+    width: 100%;
+}
+
+.right ul li:hover {
+    box-shadow: 0 4px 6px 4px rgba(0, 0, 0, .1);
+}
+
+.right ul li h4 {
+    margin: 25px 20px 20px 24px;
+    height: 38px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.box3 {
+    margin-top: 40px;
+}
+
+.box3-bd ul {
+    width: 1220px;
+}
+
+.box3-bd ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin-right: 15px;
+    background-color: #fff;
+}
+
+.box3-bd ul li img {
+    width: 100%;
+}
+
+.box3-bd ul li:hover {
+    box-shadow: 0 4px 6px 4px rgba(0, 0, 0, .1);
+}
+
+.box3-bd ul li h4 {
+    margin: 25px 20px 20px 24px;
+    height: 38px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.footer {
+    height: 417px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.footer .w {
+    padding-top: 33px;
+}
+
+.copyright {
+    float: left;
+}
+
+.copyright p {
+    margin: 25px 0 15px 0;
+    font-size: 12px;
+    columns: #666;
+}
+
+.copyright a {
+    display: block;
+    width: 118px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 16px;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+}
+
+.links {
+    float: right;
+}
+
+.links dl {
+    float: left;
+    margin: 0 30px 0 90px;
+}
+
+.links dl dt {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.links dl dd {
+    font-size: 12px;
+    color: #333;
+}
