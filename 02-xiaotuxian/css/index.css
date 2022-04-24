@@ -1,0 +1,519 @@
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper {
+    position: relative;
+    height: 500px;
+}
+
+.aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.aside li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.aside li a {
+    display: block;
+    height: 50px;
+    position: relative;
+    padding: 0 19px 0 36px;
+    color: #fff;
+}
+
+.aside li a span {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.aside li a::after {
+    content: "";
+    position: absolute;
+    right: 18px;
+    top: 19px;
+    width: 6px;
+    height: 11px;
+    background: url(../images/sprites.png) no-repeat -80px -110px;
+}
+
+.aside a:hover {
+    background-color: #27ba9b;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 228px;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(0, 0, 0, .2);
+    background-image: url(../images/sprites.png);
+    border-radius: 50%;
+}
+
+.prev {
+    left: 260px;
+    background-position: 14px -60px;
+}
+
+.next {
+    right: 10px;
+    background-position: -23px -60px;
+}
+
+.banner ol {
+    position: absolute;
+    left: 680px;
+    bottom: 30px;
+}
+
+.banner ol li {
+    float: left;
+    margin-right: 15px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner ol .current {
+    background-color: #fff;
+}
+
+.goods .hd,
+.recommends .hd,
+.hots .hd,
+.topic .hd {
+    height: 114px;
+    line-height: 114px;
+}
+
+.goods .hd h2,
+.recommends .hd h2,
+.hots .hd h2,
+.topic .hd h2 {
+    float: left;
+    height: 114px;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.goods .hd h2 span,
+.recommends .hd h2 span,
+.hots .hd h2 span {
+    margin-left: 34px;
+    font-size: 16px;
+    color: #999;
+}
+
+.goods .hd a,
+.topic .hd a {
+    float: right;
+    color: #999;
+}
+
+.goods .hd a::after,
+.topic .hd a::after {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 12px;
+    margin-left: 14px;
+    background: url(../images/sprites.png) no-repeat 0 -110px;
+}
+
+.goods .bd ul li {
+    position: relative;
+    float: left;
+    width: 304px;
+    height: 405px;
+    margin-right: 8px;
+    background-color: #f0f9f4;
+    text-align: center;
+}
+
+.goods .bd ul li:last-child {
+    margin-right: 0;
+}
+
+.goods .bd ul li img,
+.recommends .bd ul li img {
+    width: 304px;
+}
+
+.goods .bd ul li h3,
+.recommends .bd ul li h3 {
+    margin-top: 22px;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.goods .bd ul li div {
+    margin-top: 20px;
+    color: #9a2e1f;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.goods .bd ul li div span {
+    font-size: 23px;
+}
+
+.goods .bd ul li b {
+    display: block;
+    position: absolute;
+    left: 17px;
+    top: 18px;
+    width: 28px;
+    height: 51px;
+    border-radius: 2px;
+    border: 1px solid #27ba9b;
+    color: #27ba9b;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.recommends .bd ul li {
+    float: left;
+    width: 304px;
+    height: 460px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.recommends .bd ul li:last-child {
+    margin-right: 0;
+}
+
+.recommends .bd ul li p {
+    margin-top: 18px;
+    line-height: 16px;
+    color: #999;
+}
+
+.hots {
+    background-color: #f5f5f5;
+}
+
+.hots .hd {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    bottom: 17px;
+    width: 51px;
+    height: 19px;
+}
+
+.arrow span {
+    display: block;
+    float: left;
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    background-color: #e2e2e2;
+}
+
+.arrow span:nth-child(2) {
+    float: right;
+    background-color: #27ba9b;
+}
+
+.hots .bd ul li {
+    float: left;
+    width: 244px;
+    height: 351px;
+    margin-right: 5px;
+}
+
+.hots .bd ul li:last-child {
+    margin-right: 0;
+}
+
+.hots .bd ul li img {
+    width: 244px;
+    height: 306px;
+}
+
+.shengxian .hd,
+.fushi .hd,
+.canchu .hd,
+.jujia .hd {
+    height: 96px;
+    line-height: 96px;
+}
+
+.shengxian .hd h2,
+.fushi .hd h2,
+.canchu .hd h2,
+.jujia .hd h2 {
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.more {
+    float: right;
+    color: #999;
+}
+
+.more::after {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 12px;
+    margin-left: 14px;
+    background: url(../images/sprites.png) no-repeat 0 -110px;
+}
+
+.shengxian .hd ul,
+.fushi .hd ul,
+.canchu .hd ul,
+.jujia .hd ul {
+    float: right;
+    margin-right: 65px;
+}
+
+.shengxian .hd ul li,
+.fushi .hd ul li,
+.canchu .hd ul li,
+.jujia .hd ul li {
+    float: left;
+}
+
+.shengxian .hd ul li a,
+.fushi .hd ul li a,
+.canchu .hd ul li a,
+.jujia .hd ul li a {
+    padding: 2px 7px;
+    margin-left: 5px;
+}
+
+.shengxian .hd ul li a:hover,
+.fushi .hd ul li a:hover,
+.canchu .hd ul li a:hover,
+.jujia .hd ul li a:hover {
+    background-color: #27ba9b;
+    color: #fff;
+}
+
+.shengxian .bd .left,
+.fushi .bd .left,
+.canchu .bd .left,
+.jujia .bd .left {
+    float: left;
+    width: 240px;
+    height: 610px;
+}
+
+.left img {
+    width: 240px;
+}
+
+.shengxian .bd .right,
+.fushi .bd .right,
+.canchu .bd .right,
+.jujia .bd .right {
+    float: right;
+    width: 1000px;
+}
+
+.shengxian .bd .right ul li,
+.fushi .bd .right ul li,
+.canchu .bd .right ul li,
+.jujia .bd .right ul li {
+    position: relative;
+    float: left;
+    width: 242px;
+    height: 304px;
+    margin-left: 8px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.shengxian .bd .right ul li:nth-child(-n+4),
+.fushi .bd .right ul li:nth-child(-n+4),
+.canchu .bd .right ul li:nth-child(-n+4),
+.jujia .bd .right ul li:nth-child(-n+4) {
+    margin-top: 0;
+}
+
+.right ul li img {
+    height: 192px;
+}
+
+.right ul li h3 {
+    text-align: left;
+    padding-left: 29px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.right ul li p {
+    text-align: left;
+    padding-left: 29px;
+}
+
+.right ul li .price {
+    margin-top: 12px;
+    margin-left: 30px;
+    color: #9a2e1f;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.right ul li .price span {
+    font-size: 23px;
+}
+
+.mask {
+    display: none;
+    position: absolute;
+    width: 242px;
+    height: 304px;
+    left: 0;
+    top: 0;
+    border: 2px solid #27ba9b;
+}
+
+.mask div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 238px;
+    height: 82px;
+    background-color: #27ba9b;
+}
+
+.mask h4 {
+    margin: 15px auto 0;
+    width: 123px;
+    height: 30px;
+    border-bottom: 1px solid #5bc7af;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.mask p {
+    display: block;
+    margin: 8px auto 0;
+    padding: 0 !important;
+    font-size: 12px;
+    color: #fff;
+    text-align: center !important;
+}
+
+.right ul li:hover .mask {
+    display: block;
+}
+
+.topic {
+    background-color: #f5f5f5;
+}
+
+.topic .bd li {
+    position: relative;
+    float: left;
+    width: 404px;
+    height: 355px;
+    margin-right: 14px;
+    margin-bottom: 42px;
+    background-color: #fff;
+}
+
+.topic .bd li:last-child {
+    margin-right: 0;
+}
+
+.topic .bd li img {
+    width: 404px;
+}
+
+.topic .bd li .comments {
+    height: 67px;
+    line-height: 67px;
+}
+
+.topic .bd li .comments span {
+    display: block;
+    float: left;
+    margin: 0 10px;
+}
+
+.topic .bd li .comments span:last-child {
+    float: right;
+}
+
+.topic .bd li .comments span::before {
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url(../images/sprites.png) -120px -108px;
+}
+
+.topic .bd li:nth-child(2) .comments span:nth-child(1)::before {
+    background-position: -240px -108px;
+}
+
+.topic .bd li .comments span:nth-child(2)::before {
+    background-position: -160px -108px;
+}
+
+.topic .bd li .comments span:nth-child(3)::before {
+    background-position: -200px -109px;
+}
+
+.box {
+    position: absolute;
+    left: 0;
+    bottom: 68px;
+    width: 404px;
+    height: 100px;
+    color: #fff;
+    background: -webkit-linear-gradient(top, transparent, black);
+}
+
+.box h3 {
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+.box p {
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    padding-left: 16px;
+    color: #999;
+}
+
+.box span {
+    position: absolute;
+    right: 16px;
+    bottom: 30px;
+    padding: 0 8px;
+    color: #9a2e1f;
+    font-size: 17px;
+    background-color: #fff;
+}
