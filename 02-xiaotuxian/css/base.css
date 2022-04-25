@@ -51,6 +51,8 @@ a {
 
 /* 设置img的垂直对齐方式为居中对齐，去除img默认下间隙 */
 img {
+    max-width: 100%;
+    max-height: 100%;
     vertical-align: middle;
 }
 

@@ -133,6 +133,139 @@
     text-align: center;
 }
 
+.extra {
+    height: 288px;
+}
+
+.extra .contact {
+    padding: 60px 0 40px 25px;
+}
+
+.extra .contact dl {
+    float: left;
+    height: 190px;
+    text-align: center;
+    padding: 0 72px;
+    border-right: 1px solid #f2f2f2;
+    color: #999;
+}
+
+.extra .contact dl:first-child {
+    padding-left: 0;
+}
+
+.extra .contact dl:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+.extra .contact dt {
+    line-height: 1;
+    font-size: 18px;
+}
+
+.extra .contact dd {
+    margin: 36px 12px 0 0;
+    float: left;
+}
+
+.extra .contact dd:last-child {
+    margin-right: 0;
+}
+
+.extra .contact .chat,
+.extra .contact .feedback,
+.extra .contact .weixin,
+.extra .contact .weibo {
+    width: 92px;
+    height: 92px;
+    padding-top: 20px;
+    border: 1px solid #ededed;
+}
+
+.extra .contact .chat:before,
+.extra .contact .feedback:before,
+.extra .contact .weixin:before,
+.extra .contact .weibo:before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin: 0 auto 8px;
+    background-image: url(../images/sprites.png);
+    background-size: 400px 400px;
+}
+
+.extra .contact .chat:before {
+    background-position: -245px -70px;
+}
+
+.extra .contact .chat:hover:before {
+    background-position: -200px -70px;
+}
+
+.extra .contact .feedback:before {
+    background-position: -345px -70px;
+}
+
+.extra .contact .feedback:hover:before {
+    background-position: -295px -70px;
+}
+
+.extra .contact .weixin:before {
+    background-position: -247px -15px;
+}
+
+.extra .contact .weixin:hover:before {
+    background-position: -202px -15px;
+}
+
+.extra .contact .weibo:before {
+    background-position: -347px -15px;
+}
+
+.extra .contact .weibo:hover:before {
+    background-position: -297px -15px;
+}
+
+.extra .contact .qrcode {
+    width: 92px;
+    height: 92px;
+    padding: 7px;
+    border: 1px solid #ededed;
+}
+
+.extra .contact .download {
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.extra .contact .download span {
+    display: block;
+}
+
+.extra .contact .download a {
+    display: block;
+    line-height: 1;
+    padding: 10px 25px;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #5eb69c;
+}
+
+.extra .contact .hotline {
+    padding-top: 20px;
+    font-size: 22px;
+    color: #666;
+}
+
+.extra .contact .hotline small {
+    display: block;
+    font-size: 15px;
+    color: #999;
+}
+
 .footer {
     height: 342px;
     background-color: #333;
