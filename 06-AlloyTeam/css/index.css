@@ -1,0 +1,49 @@
+.carousel img {
+  height: 100% !important;
+}
+@media (max-width: 992px) {
+  .carousel .item {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel .item {
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel .item {
+    height: 500px;
+  }
+}
+.navbar-default {
+  background-color: transparent;
+  border: 0;
+}
+.project {
+  padding-top: 30px;
+  text-align: center;
+}
+.project .container div a {
+  display: block;
+  height: 200px;
+}
+.project .container div a .art {
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #70c3ff;
+}
+.project .container div a .art img {
+  height: 60px;
+}
+.project .container div:nth-child(2) a .art {
+  background-color: #fd6a7f;
+}
+.project .container div:nth-child(3) a .art {
+  background-color: #7f8ea0;
+}
+.project .container div:nth-child(4) a .art {
+  background-color: #89d04f;
+}
